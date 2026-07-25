@@ -12,11 +12,11 @@ public class ArithmeticExample {
         // 2. Subtraction (-)
         int difference = a - b;
         System.out.println("Subtraction (" + a + " - " + b + "): " + difference);
-    return a - B;
+        return a - B;
         // 3. Multiplication (*)
         int product = a * b;
         System.out.println("Multiplication (" + a + " * " + b + "): " + product);
-
+         return a * b;
         // 4. Division (/)
         // Note: Integer division discards the fractional part (15 / 4 = 3)
         int quotient = a / b;
