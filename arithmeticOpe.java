@@ -21,7 +21,7 @@ public class ArithmeticExample {
         // Note: Integer division discards the fractional part (15 / 4 = 3)
         int quotient = a / b;
         System.out.println("Integer Division (" + a + " / " + b + "): " + quotient);
-
+        return a/b; 
         // To get a decimal result, cast at least one operand to double
         double exactQuotient = (double) a / b;
         System.out.println("Decimal Division (" + a + " / " + b + "): " + exactQuotient);
