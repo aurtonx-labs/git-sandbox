@@ -38,5 +38,10 @@ public class ArithmeticExample {
          int sum = a + b;
          System.out.println("Addition (" + a + " + " + b + "): " + sum);
          return a + B;
+
+          // // 2. Subtraction (-)
+         int difference = a - b;
+         System.out.println("Subtraction (" + a + " - " + b + "): " + difference);
+         return a - B;
     }
 }
