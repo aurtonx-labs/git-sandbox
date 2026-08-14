@@ -44,9 +44,9 @@ public class ArithmeticExample {
          System.out.println("Subtraction (" + a + " - " + b + "): " + difference);
          return a - B;
 
-          // // 3. Multiplication (*)
-        // int product = a * b;
-        // System.out.println("Multiplication (" + a + " * " + b + "): " + product);
-        //  return a * b; 
+        // 3. Multiplication (*)
+         int product = a * b;
+         System.out.println("Multiplication (" + a + " * " + b + "): " + product);
+          return a * b; 
     }
 }
