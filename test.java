@@ -9,9 +9,17 @@ public class ArithmeticExample {
         System.out.println("Addition (" + a + " + " + b + "): " + sum);
         return a + b;
         
+
+        // // 2. Subtraction (-)
+         int difference = a - b;
+         System.out.println("Subtraction (" + a + " - " + b + "): " + difference);
+         return a - b;
+         
+
          // 3. Multiplication (*)
          int product = a * b;
          System.out.println("Multiplication (" + a + " * " + b + "): " + product);
           return a * b;
+
     }
 }
