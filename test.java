@@ -26,6 +26,10 @@ public class ArithmeticExample {
          int quotient = a / b;
          System.out.println("Division (" + a + " / " + b + "): " + quotient);
          return a / b;
-
+  // 5. Modulo (%)      
+        int remainder = a % b;
+        System.out.println("Modulo (" + a + " % " + b + "): " + remainder);
+        return a % b;
+      
     }
 }
