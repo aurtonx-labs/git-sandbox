@@ -21,5 +21,11 @@ public class ArithmeticExample {
          System.out.println("Multiplication (" + a + " * " + b + "): " + product);
           return a * b;
 
+        
+      // 4. division
+         int quotient = a / b;
+         System.out.println("Division (" + a + " / " + b + "): " + quotient);
+         return a / b;
+
     }
 }
