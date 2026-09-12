@@ -8,5 +8,10 @@ public class ArithmeticExample {
         int sum = a + b;
         System.out.println("Addition (" + a + " + " + b + "): " + sum);
         return a + b;
+        
+         // 3. Multiplication (*)
+         int product = a * b;
+         System.out.println("Multiplication (" + a + " * " + b + "): " + product);
+          return a * b;
     }
 }
